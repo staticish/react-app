@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+body{
+    
+    background: grey;
+}
+.pfp{
+ height: 17em;
+ width: 25.2em;
+ margin-left: 30%;
+ display: flex;
+border-top-left-radius: 5%;
+border-top-right-radius: 5%
+ 
+}
+.info{
+    background: #1A1B21;
+   padding: 5px 0px 45px 0px;
+   max-width: 48.9%;
+   margin-left: 30%;
+   margin-top: -1%;
+   
+   
+ 
+}
+
+.name{
+    
+    margin-top: 7%;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+
+div > h5 {
+  color:  darkgoldenrod;  
+  margin-top: -2.5%;
+  font-family:  initial;
+  text-align: center;
+   
+}
+
+div > h6 {
+    color: white;
+      font-family:  initial;
+  text-align: center;
+   font-family:  serif;
+   margin-top: 1em;
+}
+.btn{
+  padding: 15px 32px 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  display:  flex;
+  flex-flow: row;
+  margin-left: 8%;
+  
+  
+}
+
+span > button{
+     border: none;
+   border-radius: 5px;
+    margin-left: 1.2em;
+   padding: 3%;
+   width: 40%;
+    font-size: 16px;
+    letter-spacing: 2px;
+    outline: none;
+    
+   
+    
+    
+}
+
+span :nth-child(1){
+      outline: none;
+      font-weight: 700;
+      
+      
+}
+
+span :nth-child(2){
+    background:  #5093E2;
+    color: white; 
+      outline: none;
+        font-weight: 700;
+      
+     
+      
+}
+
+ div > p{
+      padding-left: 14%;
+      margin-top: -7%;
+     color: #DCDCDC;
+     max-width: 86%;
+     font-size: 12px;
+     font-family:     'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+     
+ }
+ div > h2{
+       padding: 10%;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15.5px
+     
+ }
+ 
+ .nav{
+     background: #161619;
+     padding-bottom: 3%;
+     width: 48.9%;
+     margin-left: 30%;
+     margin-top: -1%;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     margin-bottom: 3%;
+    
+     
+    
+     
+ }
+ .socials{
+     display: flex;   
+     margin-left: 8%;
+     
+ }
+ .socials > button{
+    padding: 0px 0px 1px 2px;
+      background: #161619;
+     width: 40px;
+     margin-left: 33px;
+     margin-top: 20px;
+     color:  #918E9B;
+     font-size: 250%;
+     height: 50px ;
+     outline: none;
+ }
+ 
